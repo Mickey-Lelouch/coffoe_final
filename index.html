@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="insertion/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="insertion/styles.css">
+
+      <title>Responsive coffee website - Daniel Iroume</title>
+   </head>
+   <body>
+      <!--==================== header & barre de navigation ====================-->
+      <header class="header" id="header">
+         <!-- barre de navigation -->
+         <nav class="nav container">
+            <a href="#" class="nav_logo">STARCOFFEE</a>
+            <div class="nav_menu" id="nav-menu">
+               <ul class="nav_list">
+                  <li><a href="#home" class="nav_link">home</a></li>
+                  <li><a href="#popular" class="nav_link">popular</a></li>
+                  <li><a href="#about" class="nav_link">about us</a></li>
+                  <li><a href="#products" class="nav_link">products</a></li>
+                  <li><a href="#contact" class="nav_link">contact</a></li>
+               </ul>
+               <!-- fermeture du bouton de menu -->
+               <div class="nav_close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+            <!-- toggle bouton -->
+            <div class="nav_toggle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== accueil ====================-->
+         <section class="home section" id="home">
+            <div class="home_container container grid">
+               <h1 class="home_title">COLD COFFEE</h1>
+               <div class="home_images">
+                  <div class="home_shape"></div>
+                  <img src="images/home-splash.png" alt="image" class="home_splash">
+                  <img src="images/bean-img.png" alt="image" class="home_bean-2">
+                  <img src="images/home-coffee.png" alt="image" class="home_coffee">
+                  <img src="images/bean-img.png" alt="image" class="home_bean-1">
+                  <img src="images/ice-img.png" alt="image" class="home_ice-1">
+                  <img src="images/ice-img.png" alt="image" class="home_ice-2">
+                  <img src="images/leaf-img.png" alt="image" class="home_leaf">
+               </div>
+               <img src="images/home-sticker.svg" alt="image" class="home_sticker">
+               <div class="home_data">
+                  <p class="home_description">
+                     Find delicious hot and cold coffees with the 
+                     best varieties, calm the pleasure and enjoy 
+                     a good coffee, order now.
+                  </p>
+                  <a href="#about" class="btn">Learn More</a>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== POPULAR ====================-->
+         <section class="popular section" id="popular">
+            <div class="popular_container container">
+               <h2 class="section_title">POPULAR <br> CREATIONS</h2>
+               <div class="popular_swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="popular_card swiper-slide">
+                        <div class="popular_images">
+                           <div class="popular_shape"></div>
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-1">
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-2">
+                           <img src="images/popular-coffee-1.png" alt="image" class="popular_coffee">
+                        </div>
+                        <div class="popular_data">
+                           <h2 class="popular_name">VANILLA LATTE</h2>
+                           <p class="popular_description">
+                              Indulge in the simplicity of our delicious cold brew coffee.
+                           </p>
+                           <a href="#contact" class="btn btn-dark">Order now: $19.90</a>
+                        </div>
+                     </article>
+                     <article class="popular_card swiper-slide">
+                        <div class="popular_images">
+                           <div class="popular_shape"></div>
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-1">
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-2">
+                           <img src="images/popular-coffee-2.png" alt="image" class="popular_coffee">
+                        </div>
+                        <div class="popular_data">
+                           <h2 class="popular_name">CLASSIC COFFEE</h2>
+                           <p class="popular_description">
+                              Indulge in the simplicity of our delicious cold brew coffee.
+                           </p>
+                           <a href="#contact" class="btn btn-dark">Order now: $19.90</a>
+                        </div>
+                     </article>
+                     <article class="popular_card swiper-slide">
+                        <div class="popular_images">
+                           <div class="popular_shape"></div>
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-1">
+                           <img src="images/bean-img.png" alt="image" class="popular_bean-2">
+                           <img src="images/popular-coffee-3.png" alt="image" class="popular_coffee">
+                        </div>
+                        <div class="popular_data">
+                           <h2 class="popular_name">MOCHA COFFEE</h2>
+                           <p class="popular_description">
+                              Indulge in the simplicity of our delicious cold brew coffee.
+                           </p>
+                           <a href="#contact" class="btn btn-dark">Order now: $19.90</a>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about_container container grid">
+               <div class="about_data">
+                  <h2 class="section_title">LEARN MORE <br> ABOUT US</h2>
+                  <p class="about_description">
+                     Welcome to StarCoffee, where coffee is pure passion. 
+                     From bean to cup, we are dedicated to delivering 
+                     excellence in every sip. Join us on a journey of 
+                     flavor and quality, crafted with love to create the 
+                     ultimate coffee experience.
+                  </p>
+                  <a href="#popular" class="btn">The Best Coffees</a>
+               </div>
+               <div class="about_images">
+                  <div class="about_shape"></div>
+                  <img src="images/leaf-img.png" alt="image" class="about_leaf-1">
+                  <img src="images/leaf-img.png" alt="image" class="about_leaf-2">
+                  <img src="images/about-coffee.png" alt="image" class="about_coffee">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== PRODUCTS ====================-->
+         <section class="products section" id="products">
+            <h2 class="section_title">THE MOST <br> REQUESTED</h2>
+            <div class="products_container container grid">
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-1.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">ICED COFFEE MOCHA</h3>
+                     <span class="products_price">$15.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-2.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">COFFEE WITH CREAM</h3>
+                     <span class="products_price">$11.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-3.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">CAPPUCCINO COFFEE</h3>
+                     <span class="products_price">$19.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-4.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">COFFEE WITH MILK</h3>
+                     <span class="products_price">$9.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-5.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">CLASSIC ICED COFFEE</h3>
+                     <span class="products_price">$5.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+               <article class="products_card">
+                  <div class="products_images">
+                     <div class="products_shape"></div>
+                     <img src="images/ice-img.png" alt="image" class="products_ice-1">
+                     <img src="images/ice-img.png" alt="image" class="products_ice-2">
+                     <img src="images/products-coffee-6.png" alt="image" class="products_coffee">
+                  </div>
+                  <div class="products_data">
+                     <h3 class="products_name">ICED COFFEE FRAPPE</h3>
+                     <span class="products_price">$16.90</span>
+                     <button class="products_btn">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                     </button>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section_title">CONTACT US</h2>
+            <div class="contact_container container grid">
+               <div class="contact_info grid">
+                  <div>
+                     <h3 class="contact_title">Write Us</h3>
+                     <div class="contact_social">
+                        <a href="https://wa.me/message/2U355QTGAI4KG1" target="_blank" class="contact_social-link">
+                           <i class="ri-whatsapp-fill"></i>
+                        </a>
+                        <a href="https://m.me/daniel.wilfried.iroume.dang" target="_blank" class="contact_social-link">
+                           <i class="ri-messenger-fill"></i>
+                        </a>
+                        <a href="https://t.me/telegram" target="_blank" class="contact_social-link">
+                           <i class="ri-telegram-2-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div>
+                     <h3 class="contact_title">Location</h3>
+                     <address class="contact_address">
+                        Bini-Dang, Ngaoundéré, Adamaoua, Cameroun
+                     </address>
+                     <a href="https://www.google.com/maps/search/BINI,+ngaoundere,+cameroun/@7.4141631,13.5400191,16z?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" class="contact_map">
+                        <i class="ri-map-pin-fill"></i>
+                        <span>View On Map</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="contact_info grid">
+                  <div>
+                     <h3 class="contact_title">Delivery</h3>
+                     <address class="contact_address">
+                        +237 687576832
+                     </address>
+                  </div>
+                  <div>
+                     <h3 class="contact_title">Attention</h3>
+                     <address class="contact_address">
+                        Monday - Saturday <br> 9AM - 10PM
+                     </address>
+                  </div>
+               </div>
+               <div class="contact_images">
+                  <div class="contact_shape"></div>
+                  <img src="images/contact-delivery.png" alt="image" class="contact_delivery"/>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer_container container grid">
+            <div>
+               <h3 class="footer_title">Social</h3>
+               <div class="footer_social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                     <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+                  <a href="https://daniel-wili.github.io/" target="_blank" class="footer_social-link">
+                     <i class="ri-github-fill"></i>
+                  </a>
+               </div>
+            </div>
+            <div>
+               <h3 class="footer_title">Payment Methods</h3>
+               <div class="footer_pay">
+                  <img src="images/footer-card-1.png" alt="image" class="footer_pay-card">
+                  <img src="images/footer-card-2.png" alt="image" class="footer_pay-card">
+                  <img src="images/footer-card-3.png" alt="image" class="footer_pay-card">
+                  <img src="images/footer-card-4.png" alt="image" class="footer_pay-card">
+               </div>
+            </div>
+            <div>
+               <h3 class="footer_title">Subscribe For Discounts</h3>
+               <form action="" class="footer_form">
+                  <input type="email" placeholder="Email" class="footer_input">
+                  <button class="footer_btn btn" type="submit">Subscribe</button>
+               </form>
+            </div>
+         </div>
+         <span class="footer_copy">
+            &#169; All Rights Reserved By Dassi Emmanuel
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="insertion/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="insertion/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="insertion/main.js"></script>
+   </body>
+</html>
